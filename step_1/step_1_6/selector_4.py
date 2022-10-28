@@ -10,7 +10,7 @@ try:
 
     link = browser.find_element(By.LINK_TEXT, "224592")
     link.click()
-    #time.sleep(30)
+    # time.sleep(30)
 
     input1 = browser.find_element(By.TAG_NAME, 'input')
     input1.send_keys("Ivan")
